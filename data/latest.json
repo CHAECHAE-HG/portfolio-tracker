@@ -1,0 +1,28 @@
+{
+  "date": "2026-03-29T09:00:00+00:00",
+  "month": "2026-03",
+  "top10": [
+    {"rank":1,"ticker":"NVDA","name":"NVIDIA","market_cap":4180000000000,"price":171.88,"change_pct":-1.33,"tier":1,"weight_factor":1.5,"alloc_krw":140187,"alloc_pct":14.0},
+    {"rank":2,"ticker":"AAPL","name":"Apple","market_cap":4050000000000,"price":275.91,"change_pct":-0.21,"tier":1,"weight_factor":1.5,"alloc_krw":140187,"alloc_pct":14.0},
+    {"rank":3,"ticker":"GOOG","name":"Alphabet","market_cap":3990000000000,"price":331.33,"change_pct":-0.60,"tier":1,"weight_factor":1.5,"alloc_krw":140187,"alloc_pct":14.0},
+    {"rank":4,"ticker":"MSFT","name":"Microsoft","market_cap":2920000000000,"price":393.67,"change_pct":-4.95,"tier":2,"weight_factor":1.0,"alloc_krw":93458,"alloc_pct":9.3},
+    {"rank":5,"ticker":"AMZN","name":"Amazon","market_cap":2140000000000,"price":203.26,"change_pct":-1.84,"tier":2,"weight_factor":1.0,"alloc_krw":93458,"alloc_pct":9.3},
+    {"rank":6,"ticker":"AVGO","name":"Broadcom","market_cap":1420000000000,"price":180.51,"change_pct":-1.04,"tier":2,"weight_factor":1.0,"alloc_krw":93458,"alloc_pct":9.3},
+    {"rank":7,"ticker":"TSLA","name":"Tesla","market_cap":1360000000000,"price":282.73,"change_pct":4.96,"tier":2,"weight_factor":1.0,"alloc_krw":93458,"alloc_pct":9.3},
+    {"rank":8,"ticker":"META","name":"Meta Platforms","market_cap":1330000000000,"price":559.14,"change_pct":-2.22,"tier":3,"weight_factor":0.7,"alloc_krw":65421,"alloc_pct":6.5},
+    {"rank":9,"ticker":"BRK-B","name":"Berkshire Hathaway","market_cap":1011000000000,"price":462.14,"change_pct":-0.81,"tier":3,"weight_factor":0.7,"alloc_krw":65421,"alloc_pct":6.5},
+    {"rank":10,"ticker":"WMT","name":"Walmart","market_cap":979730000000,"price":93.25,"change_pct":0.54,"tier":3,"weight_factor":0.7,"alloc_krw":65421,"alloc_pct":6.5}
+  ],
+  "signals": [],
+  "exit_counters": {},
+  "sell_progress": {},
+  "is_quarter_end": true,
+  "monthly_budget_krw": 1000000,
+  "strategy": {
+    "exit_months_threshold": 3,
+    "sell_pct_per_quarter": 0.33,
+    "weight_tier1": 1.5,
+    "weight_tier2": 1.0,
+    "weight_tier3": 0.7
+  }
+}
