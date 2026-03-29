@@ -1,0 +1,40 @@
+name: Monthly Portfolio Update
+
+on:
+  schedule:
+    - cron: '0 9 28 * *'
+    - cron: '0 9 29 * *'
+    - cron: '0 9 30 * *'
+    - cron: '0 9 31 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-portfolio:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install yfinance requests
+
+      - name: Run data fetcher
+        run: python src/fetch_data.py
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name  "Portfolio Bot"
+          git config user.email "bot@portfolio-tracker.local"
+          git add data/
+          git diff --staged --quiet || git commit -m "chore: monthly data update $(date -u '+%Y-%m')"
+          git push
