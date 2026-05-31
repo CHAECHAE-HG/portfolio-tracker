@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-30T10:48:51.559109+00:00",
+  "date": "2026-05-31T14:58:11.296837+00:00",
   "month": "2026-05",
   "top10": [
     {
@@ -289,10 +289,10 @@
     {
       "ticker": "WMT",
       "action": "SELL_33",
-      "message": "WMT 이탈 3개월째. 보유 잔량의 33% 매도 실행하세요.",
+      "message": "WMT 이탈 4개월째. 보유 잔량의 33% 매도 실행하세요.",
       "urgency": "critical",
       "sell_pct": 33,
-      "quarters_sold": 1
+      "quarters_sold": 2
     },
     {
       "ticker": "NVDA",
@@ -356,7 +356,7 @@
     }
   ],
   "exit_counters": {
-    "WMT": 3,
+    "WMT": 4,
     "GOOG": 0,
     "AVGO": 0,
     "AAPL": 0,
@@ -369,7 +369,7 @@
     "LLY": 0
   },
   "sell_progress": {
-    "WMT": 1
+    "WMT": 2
   },
   "is_quarter_end": false,
   "monthly_budget_krw": 1000000,
