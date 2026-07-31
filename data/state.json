@@ -1,6 +1,6 @@
 {
   "exit_counters": {
-    "WMT": 2,
+    "WMT": 0,
     "GOOG": 0,
     "AVGO": 0,
     "AAPL": 0,
@@ -10,7 +10,7 @@
     "MSFT": 0,
     "BRK-B": 0,
     "AMZN": 0,
-    "LLY": 0
+    "LLY": 1
   },
   "sell_progress": {},
   "history": [
@@ -6067,9 +6067,394 @@
         "weight_tier2": 1.0,
         "weight_tier3": 0.7
       }
+    },
+    {
+      "date": "2026-07-31T11:29:52.622932+00:00",
+      "month": "2026-07",
+      "top10": [
+        {
+          "ticker": "AAPL",
+          "name": "Apple",
+          "market_cap": 4897204862976,
+          "price": 333.43,
+          "change_pct": -1.41,
+          "rank": 1,
+          "tier": 1,
+          "weight_factor": 1.5,
+          "alloc_krw": 141509,
+          "alloc_pct": 14.2
+        },
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA",
+          "market_cap": 4724063469568,
+          "price": 195.04,
+          "change_pct": 2.65,
+          "rank": 2,
+          "tier": 1,
+          "weight_factor": 1.5,
+          "alloc_krw": 141509,
+          "alloc_pct": 14.2
+        },
+        {
+          "ticker": "GOOG",
+          "name": "Alphabet",
+          "market_cap": 4080884776960,
+          "price": 333.68,
+          "change_pct": -0.62,
+          "rank": 3,
+          "tier": 1,
+          "weight_factor": 1.5,
+          "alloc_krw": 141509,
+          "alloc_pct": 14.2
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "market_cap": 3349663711232,
+          "price": 451.1,
+          "change_pct": 15.51,
+          "rank": 4,
+          "tier": 2,
+          "weight_factor": 1.0,
+          "alloc_krw": 94340,
+          "alloc_pct": 9.4
+        },
+        {
+          "ticker": "AMZN",
+          "name": "Amazon",
+          "market_cap": 2533299322880,
+          "price": 235.5,
+          "change_pct": 3.9,
+          "rank": 5,
+          "tier": 2,
+          "weight_factor": 1.0,
+          "alloc_krw": 94340,
+          "alloc_pct": 9.4
+        },
+        {
+          "ticker": "AVGO",
+          "name": "Broadcom",
+          "market_cap": 1845179973632,
+          "price": 387.84,
+          "change_pct": 4.73,
+          "rank": 6,
+          "tier": 2,
+          "weight_factor": 1.0,
+          "alloc_krw": 94340,
+          "alloc_pct": 9.4
+        },
+        {
+          "ticker": "META",
+          "name": "Meta Platforms",
+          "market_cap": 1373182361600,
+          "price": 539.03,
+          "change_pct": -7.95,
+          "rank": 7,
+          "tier": 2,
+          "weight_factor": 1.0,
+          "alloc_krw": 94340,
+          "alloc_pct": 9.4
+        },
+        {
+          "ticker": "TSLA",
+          "name": "Tesla",
+          "market_cap": 1219817766912,
+          "price": 308.85,
+          "change_pct": 3.53,
+          "rank": 8,
+          "tier": 3,
+          "weight_factor": 0.7,
+          "alloc_krw": 66038,
+          "alloc_pct": 6.6
+        },
+        {
+          "ticker": "BRK-B",
+          "name": "Berkshire Hathaway",
+          "market_cap": 1099305189376,
+          "price": 509.68,
+          "change_pct": 0.1,
+          "rank": 9,
+          "tier": 3,
+          "weight_factor": 0.7,
+          "alloc_krw": 66038,
+          "alloc_pct": 6.6
+        },
+        {
+          "ticker": "WMT",
+          "name": "Walmart",
+          "market_cap": 884142571520,
+          "price": 111.1,
+          "change_pct": -2.73,
+          "rank": 10,
+          "tier": 3,
+          "weight_factor": 0.7,
+          "alloc_krw": 66038,
+          "alloc_pct": 6.6
+        }
+      ],
+      "all_ranked": [
+        {
+          "ticker": "AAPL",
+          "name": "Apple",
+          "market_cap": 4897204862976,
+          "price": 333.43,
+          "change_pct": -1.41,
+          "rank": 1,
+          "tier": 1,
+          "weight_factor": 1.5,
+          "alloc_krw": 141509,
+          "alloc_pct": 14.2
+        },
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA",
+          "market_cap": 4724063469568,
+          "price": 195.04,
+          "change_pct": 2.65,
+          "rank": 2,
+          "tier": 1,
+          "weight_factor": 1.5,
+          "alloc_krw": 141509,
+          "alloc_pct": 14.2
+        },
+        {
+          "ticker": "GOOG",
+          "name": "Alphabet",
+          "market_cap": 4080884776960,
+          "price": 333.68,
+          "change_pct": -0.62,
+          "rank": 3,
+          "tier": 1,
+          "weight_factor": 1.5,
+          "alloc_krw": 141509,
+          "alloc_pct": 14.2
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "market_cap": 3349663711232,
+          "price": 451.1,
+          "change_pct": 15.51,
+          "rank": 4,
+          "tier": 2,
+          "weight_factor": 1.0,
+          "alloc_krw": 94340,
+          "alloc_pct": 9.4
+        },
+        {
+          "ticker": "AMZN",
+          "name": "Amazon",
+          "market_cap": 2533299322880,
+          "price": 235.5,
+          "change_pct": 3.9,
+          "rank": 5,
+          "tier": 2,
+          "weight_factor": 1.0,
+          "alloc_krw": 94340,
+          "alloc_pct": 9.4
+        },
+        {
+          "ticker": "AVGO",
+          "name": "Broadcom",
+          "market_cap": 1845179973632,
+          "price": 387.84,
+          "change_pct": 4.73,
+          "rank": 6,
+          "tier": 2,
+          "weight_factor": 1.0,
+          "alloc_krw": 94340,
+          "alloc_pct": 9.4
+        },
+        {
+          "ticker": "META",
+          "name": "Meta Platforms",
+          "market_cap": 1373182361600,
+          "price": 539.03,
+          "change_pct": -7.95,
+          "rank": 7,
+          "tier": 2,
+          "weight_factor": 1.0,
+          "alloc_krw": 94340,
+          "alloc_pct": 9.4
+        },
+        {
+          "ticker": "TSLA",
+          "name": "Tesla",
+          "market_cap": 1219817766912,
+          "price": 308.85,
+          "change_pct": 3.53,
+          "rank": 8,
+          "tier": 3,
+          "weight_factor": 0.7,
+          "alloc_krw": 66038,
+          "alloc_pct": 6.6
+        },
+        {
+          "ticker": "BRK-B",
+          "name": "Berkshire Hathaway",
+          "market_cap": 1099305189376,
+          "price": 509.68,
+          "change_pct": 0.1,
+          "rank": 9,
+          "tier": 3,
+          "weight_factor": 0.7,
+          "alloc_krw": 66038,
+          "alloc_pct": 6.6
+        },
+        {
+          "ticker": "WMT",
+          "name": "Walmart",
+          "market_cap": 884142571520,
+          "price": 111.1,
+          "change_pct": -2.73,
+          "rank": 10,
+          "tier": 3,
+          "weight_factor": 0.7,
+          "alloc_krw": 66038,
+          "alloc_pct": 6.6
+        },
+        {
+          "ticker": "V",
+          "name": "Visa",
+          "market_cap": 683843387392,
+          "price": 366.27,
+          "change_pct": -0.67,
+          "rank": 11
+        },
+        {
+          "ticker": "ORCL",
+          "name": "Oracle",
+          "market_cap": 367432892416,
+          "price": 127.56,
+          "change_pct": 8.34,
+          "rank": 12
+        },
+        {
+          "ticker": "LLY",
+          "name": "Eli Lilly",
+          "market_cap": 0,
+          "price": 1154.97,
+          "change_pct": -4.55,
+          "rank": 13
+        },
+        {
+          "ticker": "JPM",
+          "name": "JPMorgan Chase",
+          "market_cap": 0,
+          "price": 350.85,
+          "change_pct": 1.78,
+          "rank": 14
+        },
+        {
+          "ticker": "XOM",
+          "name": "Exxon Mobil",
+          "market_cap": 0,
+          "price": 156.97,
+          "change_pct": 0.14,
+          "rank": 15
+        }
+      ],
+      "signals": [
+        {
+          "ticker": "WMT",
+          "action": "REENTRY",
+          "message": "WMT 복귀! 매도 중단 → 다음 달부터 정상 매수 재개",
+          "urgency": "high"
+        },
+        {
+          "ticker": "LLY",
+          "action": "WATCH",
+          "message": "LLY 이탈 1개월째. 아직 매도 없음. 모니터링 중.",
+          "urgency": "low"
+        },
+        {
+          "ticker": "AAPL",
+          "action": "NEW_BUY",
+          "message": "AAPL 신규 Top10 편입! 이번 달부터 정상 비중으로 매수 시작.",
+          "urgency": "high"
+        },
+        {
+          "ticker": "NVDA",
+          "action": "NEW_BUY",
+          "message": "NVDA 신규 Top10 편입! 이번 달부터 정상 비중으로 매수 시작.",
+          "urgency": "high"
+        },
+        {
+          "ticker": "GOOG",
+          "action": "NEW_BUY",
+          "message": "GOOG 신규 Top10 편입! 이번 달부터 정상 비중으로 매수 시작.",
+          "urgency": "high"
+        },
+        {
+          "ticker": "MSFT",
+          "action": "NEW_BUY",
+          "message": "MSFT 신규 Top10 편입! 이번 달부터 정상 비중으로 매수 시작.",
+          "urgency": "high"
+        },
+        {
+          "ticker": "AMZN",
+          "action": "NEW_BUY",
+          "message": "AMZN 신규 Top10 편입! 이번 달부터 정상 비중으로 매수 시작.",
+          "urgency": "high"
+        },
+        {
+          "ticker": "AVGO",
+          "action": "NEW_BUY",
+          "message": "AVGO 신규 Top10 편입! 이번 달부터 정상 비중으로 매수 시작.",
+          "urgency": "high"
+        },
+        {
+          "ticker": "META",
+          "action": "NEW_BUY",
+          "message": "META 신규 Top10 편입! 이번 달부터 정상 비중으로 매수 시작.",
+          "urgency": "high"
+        },
+        {
+          "ticker": "TSLA",
+          "action": "NEW_BUY",
+          "message": "TSLA 신규 Top10 편입! 이번 달부터 정상 비중으로 매수 시작.",
+          "urgency": "high"
+        },
+        {
+          "ticker": "BRK-B",
+          "action": "NEW_BUY",
+          "message": "BRK-B 신규 Top10 편입! 이번 달부터 정상 비중으로 매수 시작.",
+          "urgency": "high"
+        },
+        {
+          "ticker": "WMT",
+          "action": "NEW_BUY",
+          "message": "WMT 신규 Top10 편입! 이번 달부터 정상 비중으로 매수 시작.",
+          "urgency": "high"
+        }
+      ],
+      "exit_counters": {
+        "WMT": 0,
+        "GOOG": 0,
+        "AVGO": 0,
+        "AAPL": 0,
+        "NVDA": 0,
+        "TSLA": 0,
+        "META": 0,
+        "MSFT": 0,
+        "BRK-B": 0,
+        "AMZN": 0,
+        "LLY": 1
+      },
+      "sell_progress": {},
+      "is_quarter_end": false,
+      "monthly_budget_krw": 1000000,
+      "strategy": {
+        "exit_months_threshold": 3,
+        "sell_pct_per_quarter": 0.33,
+        "weight_tier1": 1.5,
+        "weight_tier2": 1.0,
+        "weight_tier3": 0.7
+      }
     }
   ],
   "portfolio": {},
-  "last_updated": "2026-07-30T11:09:48.907170+00:00",
+  "last_updated": "2026-07-31T11:29:52.622932+00:00",
   "monthly_budget_krw": 1000000
 }
