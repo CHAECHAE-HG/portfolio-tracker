@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-28T20:40:56.315285+00:00",
+  "date": "2026-08-29T14:08:00.376142+00:00",
   "month": "2026-08",
   "top10": [
     {
@@ -289,14 +289,8 @@
     {
       "ticker": "WMT",
       "action": "WATCH",
-      "message": "WMT 이탈 1개월째. 아직 매도 없음. 모니터링 중.",
-      "urgency": "low"
-    },
-    {
-      "ticker": "LLY",
-      "action": "REENTRY",
-      "message": "LLY 복귀! 매도 중단 → 다음 달부터 정상 매수 재개",
-      "urgency": "high"
+      "message": "WMT 이탈 2개월째. 다음 달도 이탈 시 매도 시작.",
+      "urgency": "medium"
     },
     {
       "ticker": "NVDA",
@@ -360,7 +354,7 @@
     }
   ],
   "exit_counters": {
-    "WMT": 1,
+    "WMT": 2,
     "GOOG": 0,
     "AVGO": 0,
     "AAPL": 0,
