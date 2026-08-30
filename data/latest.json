@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-29T14:08:00.376142+00:00",
+  "date": "2026-08-30T14:19:47.656932+00:00",
   "month": "2026-08",
   "top10": [
     {
@@ -113,7 +113,7 @@
     {
       "ticker": "LLY",
       "name": "Eli Lilly",
-      "market_cap": 1047448322048,
+      "market_cap": 1046996910080,
       "price": 1174.61,
       "change_pct": -0.13,
       "rank": 10,
@@ -235,7 +235,7 @@
     {
       "ticker": "LLY",
       "name": "Eli Lilly",
-      "market_cap": 1047448322048,
+      "market_cap": 1046996910080,
       "price": 1174.61,
       "change_pct": -0.13,
       "rank": 10,
@@ -288,9 +288,11 @@
   "signals": [
     {
       "ticker": "WMT",
-      "action": "WATCH",
-      "message": "WMT 이탈 2개월째. 다음 달도 이탈 시 매도 시작.",
-      "urgency": "medium"
+      "action": "SELL_33",
+      "message": "WMT 이탈 3개월째. 보유 잔량의 33% 매도 실행하세요.",
+      "urgency": "critical",
+      "sell_pct": 33,
+      "quarters_sold": 1
     },
     {
       "ticker": "NVDA",
@@ -354,7 +356,7 @@
     }
   ],
   "exit_counters": {
-    "WMT": 2,
+    "WMT": 3,
     "GOOG": 0,
     "AVGO": 0,
     "AAPL": 0,
@@ -366,7 +368,9 @@
     "AMZN": 0,
     "LLY": 0
   },
-  "sell_progress": {},
+  "sell_progress": {
+    "WMT": 1
+  },
   "is_quarter_end": false,
   "monthly_budget_krw": 1000000,
   "strategy": {
